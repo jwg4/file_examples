@@ -1,0 +1,13 @@
+{
+    "TREES":
+        [
+            {
+                "name": "Oak",
+                "size": 14.5
+            },
+            {
+                "name": "Date palm",
+                "size": 12
+            }
+        ]
+}

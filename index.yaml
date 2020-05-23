@@ -13,6 +13,11 @@ files:
           width: 100
           bitdepth: 4
       size: 5318
+    - name: trees.json
+      valid: true
+      content-type: application/json
+      description: A JSON file with some information about trees.
+      size: 229
     - name: actually_a_bmp.png
       valid: false
       content-type: image/png
