@@ -1,0 +1,7 @@
+---
+files:
+    - name: empty.txt
+      valid: true
+      content-type: text/plain
+      description: An empty text file.
+
