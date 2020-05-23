@@ -4,4 +4,17 @@ files:
       valid: true
       content-type: text/plain
       description: An empty text file.
-
+    - name: orange_ellipse_100x100.bmp
+      valid: true
+      content-type: image/bmp
+      description: A bitmap file with an orange ellipse on a purple background.
+      image:
+          height: 100
+          width: 100
+          bitdepth: 4
+      size: 5318
+    - name: actually_a_bmp.png
+      valid: false
+      content-type: image/png
+      description: This is a valid bmp file. If interpreted as a PNG file it is invalid.
+      size: 5318
