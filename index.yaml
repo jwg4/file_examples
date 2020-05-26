@@ -29,3 +29,8 @@ files:
       content-type: image/png
       description: This is a valid bmp file. If interpreted as a PNG file it is invalid.
       size: 5318
+    - name: files.zip
+      valid: true
+      content-type: application/zip
+      description: A zip archive containing the files empty.txt, hello.txt, orange_ellipse_100x100.bmp, and trees.json.
+      size: 900
