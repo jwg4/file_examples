@@ -4,6 +4,12 @@ files:
       valid: true
       content-type: text/plain
       description: An empty text file.
+      size: 0
+    - name: hello.txt
+      valid: true
+      content-type: text/plain
+      description: A text file with a short English message.
+      size: 15
     - name: orange_ellipse_100x100.bmp
       valid: true
       content-type: image/bmp
