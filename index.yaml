@@ -34,3 +34,6 @@ files:
       content-type: application/zip
       description: A zip archive containing the files empty.txt, hello.txt, orange_ellipse_100x100.bmp, and trees.json.
       size: 900
+    - name: foo.py
+      valid: true
+      description: A short Python script with valid syntax and pretty format.
