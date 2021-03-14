@@ -1,0 +1,20 @@
+name: Check files and file index
+
+on:
+    - push
+    - pull_request
+
+jobs:
+    verify:
+        runs-on: ubuntu-latest
+        steps:
+        - name: checkout code
+          uses: actions/checkout@v2
+        - name: Set up Python 3.7
+          uses: actions/setup-python@v2
+          with:
+            python-version: 3.7
+        - name: Install deps
+          run: pip install tools/requirements.txt
+        - name: run script
+          run: python -m tools.verify
